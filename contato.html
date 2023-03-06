@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Revenda de Carros</h1>
+        <p>Compre aqui o seu carro novo ou usado!</p>
+    </header>
+    <!-- Barra de navegação -->
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="modelos/novos.html">Carros Novos</a>
+        <a href="modelos/usados.html">Carros Usados</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <h1>Entre em contato conosco</h1>
+    <form action="processar.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
